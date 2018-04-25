@@ -58,17 +58,17 @@ ext {
     POM_PACKAGING = "pom"
     POM_DESCRIPTION = "Store3 is built with RxJava2"
 
-    POM_URL = "https://github.com/nytimes/Store/"
-    POM_SCM_URL = "https://github.com/nytimes/Store/"
-    POM_SCM_CONNECTION = "scm:git:https://github.com/nytm/Store.git"
-    POM_SCM_DEV_CONNECTION = "scm:git:git@github.com:nytm/Store.git"
+    POM_URL = "https://github.com/ferdavs/Store/"
+    POM_SCM_URL = "https://github.com/ferdavs/Store/"
+    POM_SCM_CONNECTION = "scm:git:https://github.com/ferdavs/Store.git"
+    POM_SCM_DEV_CONNECTION = "scm:git:git@github.com:ferdavs/Store.git"
 
     POM_LICENCE_NAME = "Apache License"
     POM_LICENCE_URL = "http://www.apache.org/licenses/"
     POM_LICENCE_DIST = "repo"
 
-    POM_DEVELOPER_ID = "nytimesandroid"
-    POM_DEVELOPER_NAME = "New York Times"
+    POM_DEVELOPER_ID = "ferdavs"
+    POM_DEVELOPER_NAME = "Feruz Davletov"
 }
 
 

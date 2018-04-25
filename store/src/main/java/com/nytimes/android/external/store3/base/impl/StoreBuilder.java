@@ -1,8 +1,8 @@
 package com.nytimes.android.external.store3.base.impl;
 
-import javax.annotation.Nonnull;
-
 import io.reactivex.annotations.Beta;
+
+import javax.annotation.Nonnull;
 
 
 /**
@@ -32,5 +32,11 @@ public final class StoreBuilder {
     @Nonnull
     public static <Key, Raw, Parsed> RealStoreBuilder<Raw, Parsed, Key> parsedWithKey() {
         return new RealStoreBuilder<>();
+    }
+
+    @Beta
+    @Nonnull
+    public static <Key, Raw, Parsed> RealStoreBuilder2<Raw, Parsed, Key> parsedWithKey2() {
+        return new RealStoreBuilder2<>();
     }
 }
